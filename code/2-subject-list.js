@@ -5,6 +5,8 @@
 let subjects = [
   'English',
   'Digital Technology',
+  'maths',
+  'graphics',
 ]
 
 function showSubjects() {
@@ -12,7 +14,7 @@ function showSubjects() {
 }
 
 function addSubject() {
-  let newSubject = 'Maths'
+  let newSubject = prompt('tell me a school subject')
 
   // add a new item to the end of the subjects array
   subjects.push(newSubject)

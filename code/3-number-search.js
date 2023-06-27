@@ -7,7 +7,10 @@ let numberArray = [
   100,
   1000,
   10000,
-  1234567890
+  1234567890,
+  47,
+  66,
+  3
 ]
 
 function searchNumbers() {
