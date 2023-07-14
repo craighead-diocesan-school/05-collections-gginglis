@@ -12,7 +12,9 @@ let jobs = [
 ]
 
 function getJob() {
-  let index = 0
+  let index = Math.floor(Math.random() * 5)
 
-  alert('Your future job will be ' + jobs[3])
+  alert('Your future job will be ' + jobs[index])
+
+
 }

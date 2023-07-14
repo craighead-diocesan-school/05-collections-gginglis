@@ -10,7 +10,7 @@ let subject = {
 }
 
 function showSubject() {
-  alert(subject.name)(subject.room)
+  alert(subject.name) + (subject.room)
 }
 
 function changeSubject() {
@@ -20,5 +20,7 @@ function changeSubject() {
 }
 
 function changeTeacher() {
-  let newTeacher = prompt('say a new teacher')
+  let newTeacher = prompt('say a new teacher??')
+
+  subject.teacher = newTeacher
 }
